@@ -31,7 +31,7 @@ import com.vaadin.flow.dom.ElementConstants;
  */
 @Tag("iron-icon")
 @HtmlImport("frontend://bower_components/vaadin-icons/vaadin-icons.html")
-public class Icon extends Component implements HasStyle, ClickNotifier {
+public class Icon extends Component implements HasStyle, ClickNotifier<Icon> {
 
     private static final String ICON_ATTRIBUTE_NAME = "icon";
     private static final String ICON_COLLECTION_NAME = "vaadin";
